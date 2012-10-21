@@ -1,0 +1,48 @@
+@import "compass";
+@import "variables.scss";
+@import "mixins.scss";
+
+a{
+	text-decoration	:	none;
+}
+
+body{
+	font-size:2.6em;
+}
+h1{
+	font-family: $fontH1;
+	font-size:100%;
+	color: $textColor;
+}
+
+h2{
+	font-family: $fontH2;
+	font-size:80%;
+	color: $textColor2;
+}
+
+nav {
+	a{
+		@extend a;
+		font-family: $fontH1;
+		font-style:italic;
+		color: $textColor;
+		font-size:90%;
+		font-weight:300;
+	}
+}
+
+.technologies{
+	li{
+		font-size	:	200%;
+	}
+	li:nth-of-type(1){
+		color		:	$html5Color1;
+	}
+	li:nth-of-type(2){
+		color		:	$css3Color1;
+	}
+	li:nth-of-type(3){
+		color		:	$jsColor1;
+	}
+}

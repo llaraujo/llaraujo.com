@@ -1,0 +1,163 @@
+@import "compass";
+@import "variables.scss";
+
+body{
+	header{
+		position	:	absolute;
+		top 		:	10%;
+		margin		:	auto;
+		margin		:	0 auto;
+		width		:	100%;
+		text-align	:	center;
+	}
+}
+
+/* Technologies */
+.technologies{
+	position	:	absolute;
+	top			:	40%;
+	margin		:	0 auto;
+	width		:	100%;
+	height		:	125px;
+	text-align	:	center;
+	ul{
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		li{
+//			float				:	left;
+//			background-size		:	contain;
+//			background-repeat	:	no-repeat;
+//			margin				:	0 10px;
+//			width				:	131px;
+//			height				:	148px;
+			float: left;
+			background-size: contain;
+			background-repeat: no-repeat;
+			margin: 0 auto;
+			width: 48%;
+			height: 100%;
+		}
+		li:nth-of-type(1){
+			background-position: right;
+			margin-right:2%;
+		}
+		li:nth-of-type(2){
+			background-position: left;
+			margin-left:2%;
+		}
+	}
+}
+
+[data-icon]:before{
+	float	:	left;
+}
+
+nav a.ativo{
+	float	:	left;
+}
+
+nav {
+
+	position	:	absolute;
+	top			:	40px;
+	left		:	0;
+
+	li{
+		height:60px;
+	}
+
+	li:nth-of-type(1){
+		a{
+			&:hover{
+				width		:	175px;
+				color		:	$facebookColor;
+			}
+		}
+	}
+
+	li:nth-of-type(2){
+		a{
+			&:hover{
+				width		:	180px;
+				color		:	$twitterColor;
+			}
+		}
+	}
+
+	li:nth-of-type(3){
+		a{
+			&:hover{
+				width		:	150px;
+				color		:	$githubColor;
+			}
+		}
+	}
+
+	li:nth-of-type(4){
+		a{
+			&:hover{
+				width		:	270px;
+				color		:	$linkedinColor;
+			}
+		}
+	}
+
+	li:nth-of-type(5){
+		a{
+			&:hover{
+				width		:	150px;
+				color		:	$googleplusColor;
+			}
+		}
+	}
+
+	li:nth-of-type(5){
+		a{
+			&:hover{
+				width		:	300px;
+				color		:	#FFF;
+			}
+		}
+	}
+
+	a{
+		position:relative;
+		overflow:hidden;
+		display:block;
+		width:50px;
+		height:48px;
+		line-height:48px;
+		vertical-align:middle;
+		padding-left:5px;
+		margin-bottom:5px;
+		background-color:#444;
+		border-top-right-radius:26px;
+		border-bottom-right-radius:26px;
+		color:#CCC;
+
+		-webkit-transition: width 700ms linear;
+
+		&:hover{
+			width:200px;
+		}
+
+		.icone{
+			float:left;
+			height:48px;
+		}
+
+		div.info{
+			position: absolute;
+			top:0px;
+			left:60px;
+			width:150px;
+			color:#FFF;
+			font-size:40%;
+		}
+
+	}
+
+}

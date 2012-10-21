@@ -1,0 +1,83 @@
+[data-icon]:before {
+	float:left;
+	font-family				:	'icomoon';
+	content					:	attr(data-icon);
+	speak					:	none;
+	font-weight				:	normal;
+	-webkit-font-smoothing	:	antialiased;
+	text-align				:	center;
+}
+
+[class^="icon-"]:before, 
+[class*=" icon-"]:before {
+	float:left;
+	font-family				:	'icomoon';
+	font-style				:	normal;
+	speak					:	none;
+	font-weight				:	normal;
+	-webkit-font-smoothing	:	antialiased;
+}
+
+.icon-github:before {
+	content: "\21";
+}
+.icon-facebook:before {
+	content: "\23";
+}
+.icon-twitter:before {
+	content: "\24";
+}
+.icon-feed:before {
+	content: "\25";
+}
+.icon-gplus:before {
+	content: "\26";
+}
+.icon-mail:before {
+	content: "\27";
+}
+.icon-html5:before {
+	content: "\28";
+}
+.icon-css3:before {
+	content: "\29";
+}
+.icon-chrome:before {
+	content: "\2a";
+}
+.icon-firefox:before {
+	content: "\2b";
+}
+.icon-IE:before {
+	content: "\2c";
+}
+.icon-opera:before {
+	content: "\2d";
+}
+.icon-safari:before {
+	content: "\2e";
+}
+.icon-file-pdf:before {
+	content: "\30";
+}
+.icon-file-word:before {
+	content: "\31";
+}
+.icon-skype:before {
+	content: "\32";
+}
+.icon-android:before {
+	content: "\33";
+}
+.icon-apple:before {
+	content: "\34";
+}
+.icon-phone:before {
+	content: "\35";
+}
+.icon-location:before {
+	content: "\22";
+}
+.icon-linkedin:before {
+	content: "\2f";
+}

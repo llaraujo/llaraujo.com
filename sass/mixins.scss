@@ -1,0 +1,9 @@
+@mixin centralizeElements {
+	position	:	absolute;
+	top			:	25%;
+	left		:	50%;
+	margin		:	-100px 0 0 -250px;
+	width		:	550px;
+	height		:	125px;
+	text-align	:	center;
+}

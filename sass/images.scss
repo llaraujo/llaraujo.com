@@ -1,0 +1,32 @@
+@import "compass";
+
+body{
+	@include background(inline-image("bg.png"));
+}
+
+html.no-datauri body{
+	@include background(image-url("bg.png"));
+}
+
+.html5-logo{
+	@include background(inline-image("html5logo.png"));
+}
+
+html.no-datauri .html5-logo{
+	@include background(image-url("html5logo.png"));
+}
+
+.css3-logo{
+	@include background(inline-image("css3logo.png"));
+}
+
+html.no-datauri .css3-logo{
+	@include background(image-url("css3logo.png"));
+}
+
+
+
+
+
+
+

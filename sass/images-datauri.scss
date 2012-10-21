@@ -1,0 +1,13 @@
+@import "compass";
+
+body{
+	@include background(inline-image("bg.png"));
+}
+
+.html5-logo{
+	@include background(inline-image("html5logo.png"));
+}
+
+.css3-logo{
+	@include background(inline-image("css3logo.png"));
+}
