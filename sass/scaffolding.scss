@@ -5,7 +5,6 @@ body{
 	header{
 		position	:	absolute;
 		top 		:	10%;
-		margin		:	auto;
 		margin		:	0 auto;
 		width		:	100%;
 		text-align	:	center;
@@ -27,12 +26,6 @@ body{
 		height: 100%;
 		margin: 0 auto;
 		li{
-//			float				:	left;
-//			background-size		:	contain;
-//			background-repeat	:	no-repeat;
-//			margin				:	0 10px;
-//			width				:	131px;
-//			height				:	148px;
 			float: left;
 			background-size: contain;
 			background-repeat: no-repeat;
@@ -59,6 +52,34 @@ nav a.ativo{
 	float	:	left;
 }
 
+a{
+	&.a-fb:hover{
+		width		:	175px;
+		color		:	$facebookColor;
+	}
+
+	&.a-t:hover{
+		width		:	180px;
+		color		:	$twitterColor;
+	}
+	&.a-git:hover{
+		width		:	150px;
+		color		:	$githubColor;
+	}
+	&.a-lnkd:hover{
+		width		:	270px;
+		color		:	$linkedinColor;
+	}
+	&.a-gp:hover{
+		width		:	150px;
+		color		:	$googleplusColor;
+	}
+	&.a-mail:hover{
+		width		:	300px;
+		color		:	#FFF;
+	}
+}
+
 nav {
 
 	position	:	absolute;
@@ -67,60 +88,6 @@ nav {
 
 	li{
 		height:60px;
-	}
-
-	li:nth-of-type(1){
-		a{
-			&:hover{
-				width		:	175px;
-				color		:	$facebookColor;
-			}
-		}
-	}
-
-	li:nth-of-type(2){
-		a{
-			&:hover{
-				width		:	180px;
-				color		:	$twitterColor;
-			}
-		}
-	}
-
-	li:nth-of-type(3){
-		a{
-			&:hover{
-				width		:	150px;
-				color		:	$githubColor;
-			}
-		}
-	}
-
-	li:nth-of-type(4){
-		a{
-			&:hover{
-				width		:	270px;
-				color		:	$linkedinColor;
-			}
-		}
-	}
-
-	li:nth-of-type(5){
-		a{
-			&:hover{
-				width		:	150px;
-				color		:	$googleplusColor;
-			}
-		}
-	}
-
-	li:nth-of-type(5){
-		a{
-			&:hover{
-				width		:	300px;
-				color		:	#FFF;
-			}
-		}
 	}
 
 	a{
@@ -133,12 +100,12 @@ nav {
 		vertical-align:middle;
 		padding-left:5px;
 		margin-bottom:5px;
-		background-color:#444;
-		border-top-right-radius:26px;
-		border-bottom-right-radius:26px;
 		color:#CCC;
+		background-color:#444;
+		@include border-top-right-radius(26px);
+		@include border-bottom-right-radius(26px);
 
-		-webkit-transition: width 700ms linear;
+		@include transition(width 500ms linear);
 
 		&:hover{
 			width:200px;

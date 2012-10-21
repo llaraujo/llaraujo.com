@@ -5,7 +5,6 @@ http_path = "/"
 css_dir = "css"
 sass_dir = "sass"
 images_dir = "img"
-font_dir = "font"
 fonts_dir = "font"
 javascripts_dir = "js"
 
@@ -19,7 +18,7 @@ output_style = :compressed
 relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
-#line_comments = false
+line_comments = false
 
 preferred_syntax = :scss
 
