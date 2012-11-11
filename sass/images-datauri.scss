@@ -4,10 +4,10 @@ body{
 	@include background(inline-image("bg.png"));
 }
 
-.html5-logo{
+.html5{
 	@include background(inline-image("html5logo.png"));
 }
 
-.css3-logo{
+.css3{
 	@include background(inline-image("css3logo.png"));
 }

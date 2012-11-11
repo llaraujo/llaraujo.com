@@ -1,0 +1,21 @@
+CACHE MANIFEST
+# 2012-11-10:v4
+
+CACHE:
+index.html
+js/min.js
+css/styles.css
+font/megalopolisextra-webfont.woff
+font/coda-caption.woff
+font/icomoon.svg
+font/megalopolisextra-webfont.ttf
+font/icomoon.woff
+font/megalopolisextra-webfont.svg
+font/icomoon.ttf
+
+NETWORK:
+*
+##http://www.google-analytics.com/ga.js
+
+
+##FALLBACK:

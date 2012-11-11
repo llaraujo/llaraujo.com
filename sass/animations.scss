@@ -1,0 +1,18 @@
+@import "compass";
+
+header{
+	@include transition(margin-top 1500ms linear,opacity 1500ms linear);
+	margin-top: 5%;
+	opacity:1;
+}
+
+
+nav li a{
+	
+	@include transition(width 400ms linear);
+
+}
+
+.logos{
+	@include transition(opacity 1500ms linear);
+}

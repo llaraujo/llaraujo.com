@@ -1,130 +1,138 @@
 @import "compass";
+@import "compass/css3/user-interface";
 @import "variables.scss";
 
-body{
-	header{
-		position	:	absolute;
-		top 		:	10%;
-		margin		:	0 auto;
-		width		:	100%;
-		text-align	:	center;
-	}
+header.start{
+	margin-top:-10%;
+	opacity:0;
 }
 
-/* Technologies */
-.technologies{
-	position	:	absolute;
-	top			:	40%;
-	margin		:	0 auto;
-	width		:	100%;
-	height		:	125px;
-	text-align	:	center;
-	ul{
-		position: relative;
-		overflow: hidden;
-		width: 100%;
-		height: 100%;
-		margin: 0 auto;
-		li{
-			float: left;
-			background-size: contain;
-			background-repeat: no-repeat;
-			margin: 0 auto;
-			width: 48%;
-			height: 100%;
-		}
-		li:nth-of-type(1){
-			background-position: right;
-			margin-right:2%;
-		}
-		li:nth-of-type(2){
-			background-position: left;
-			margin-left:2%;
-		}
-	}
+.cont{
+	width: 4.3%;
 }
 
-[data-icon]:before{
-	float	:	left;
-}
-
-nav a.ativo{
-	float	:	left;
-}
-
-a{
-	&.a-fb:hover{
-		width		:	175px;
-		color		:	$facebookColor;
+nav{
+	ul,li{
+		width:100%;
 	}
-
-	&.a-t:hover{
-		width		:	180px;
-		color		:	$twitterColor;
-	}
-	&.a-git:hover{
-		width		:	150px;
-		color		:	$githubColor;
-	}
-	&.a-lnkd:hover{
-		width		:	270px;
-		color		:	$linkedinColor;
-	}
-	&.a-gp:hover{
-		width		:	150px;
-		color		:	$googleplusColor;
-	}
-	&.a-mail:hover{
-		width		:	300px;
-		color		:	#FFF;
-	}
-}
-
-nav {
-
-	position	:	absolute;
-	top			:	40px;
-	left		:	0;
-
+	
 	li{
-		height:60px;
+		margin-bottom:10%;
 	}
 
 	a{
-		position:relative;
+		position: relative;
 		overflow:hidden;
 		display:block;
-		width:50px;
-		height:48px;
+		width:99%;
+		background-color:$textColor;
+		border-bottom-right-radius: 26px;
+		border-top-right-radius: 26px;
+		text-decoration:none;
 		line-height:48px;
-		vertical-align:middle;
-		padding-left:5px;
-		margin-bottom:5px;
-		color:#CCC;
-		background-color:#444;
-		@include border-top-right-radius(26px);
-		@include border-bottom-right-radius(26px);
 
-		@include transition(width 500ms linear);
+		&.hide{
+			width:0;
+		}
+		
+		&.facebook:hover{
+			width: 325%;
 
-		&:hover{
-			width:200px;
+			.i{
+				color:$facebookColor
+			}
+
+		}
+		
+		&.twitter:hover{
+			width: 330%;
+			
+			.i{
+				color:$twitterColor
+			}
 		}
 
-		.icone{
+		&.github:hover{
+			width: 300%;
+			
+			.i{
+				color:$githubColor
+			}
+
+		}
+		
+		&.linkedin:hover{
+			width: 500%;
+
+			.i{
+				color:$linkedinColor
+			}
+
+		}
+
+		&.email:hover{
+			width: 550%;
+
+			.i{
+				color: $emailColor
+			}
+
+		}
+
+		div{
 			float:left;
-			height:48px;
 		}
 
-		div.info{
+		.i, .d{
+			width:100%;
+		}
+
+		.i{
+			height:48px;
+			line-height:48px;
+			padding-left:5px;
+			font-size:90%;
+			color:$textColor3;
+		}
+
+		.d{
 			position: absolute;
-			top:0px;
-			left:60px;
-			width:150px;
-			color:#FFF;
-			font-size:40%;
+			top: 0px;
+			left: 54px;
+			font-size: 40%;
+			color: $textColor2;
+			font-style:italic;
+			@include user-select(none);
 		}
 
 	}
+}
 
+.logos{
+	position:absolute;
+	width:40%;
+	height:200px;
+	top:40%;
+	left:33%;
+	opacity: 1;
+
+	&.hide{
+		opacity:0;
+	}
+
+	div{
+		background-repeat:no-repeat;
+		background-size:contain;
+		font-size:0em;
+	}
+	.html5{
+		float:left;
+		width:45%;
+		height:100%;
+	}
+	.css3{
+		float:right;
+		width:45%;
+		height:100%;
+	}
 }

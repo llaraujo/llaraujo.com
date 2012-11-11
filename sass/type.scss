@@ -2,47 +2,30 @@
 @import "variables.scss";
 @import "mixins.scss";
 
-a{
-	text-decoration	:	none;
-}
+@include font-face("Coda Caption", font-files("coda-caption.woff"),"","600","normal");
+@include font-face("Megalopolis", font-files("megalopolisextra-webfont.eot?#iefix","megalopolisextra-webfont.woff", "megalopolisextra-webfont.ttf", "megalopolisextra-webfont.svg#MEgalopolisExtraRegular"),"megalopolisextra-webfont.eot","normal","normal");
+@include font-face(icomoon, font-files("icomoon.eot?#iefix","icomoon.svg#icomoon","icomoon.woff","icomoon.ttf"),"icomoon.eot","normal","normal");
 
 body{
 	font-size:2.6em;
 }
+
+h1,h2{
+	text-align:center;
+}
+
 h1{
-	font-family: $fontH1;
+	font-family: "Megalopolis";
 	font-size:100%;
 	color: $textColor;
 }
 
 h2{
-	font-family: $fontH2;
-	font-size:80%;
+	font-family: "Coda Caption";
+	font-size:85%;
 	color: $textColor2;
 }
 
-nav {
-	a{
-		@extend a;
-		font-family: $fontH1;
-		font-style:italic;
-		color: $textColor;
-		font-size:90%;
-		font-weight:300;
-	}
-}
-
-.technologies{
-	li{
-		font-size	:	200%;
-	}
-	li:nth-of-type(1){
-		color		:	$html5Color1;
-	}
-	li:nth-of-type(2){
-		color		:	$css3Color1;
-	}
-	li:nth-of-type(3){
-		color		:	$jsColor1;
-	}
+nav a{
+	font-family: "Megalopolis";
 }

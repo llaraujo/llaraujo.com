@@ -1,7 +1,0 @@
-@import "compass";
-@import "variables.scss";
-@import "mixins.scss";
-
-@include font-face("Coda Caption", font-files("coda-caption.woff"),"","600","normal");
-@include font-face("Megalopolis", font-files("megalopolisextra-webfont.eot?#iefix","megalopolisextra-webfont.woff", "megalopolisextra-webfont.ttf", "megalopolisextra-webfont.svg#MEgalopolisExtraRegular"),"megalopolisextra-webfont.eot","normal","normal");
-@include font-face(icomoon, font-files("icomoon.eot?#iefix","icomoon.svg#icomoon","icomoon.woff","icomoon.ttf"),"icomoon.eot","normal","normal");
