@@ -11,6 +11,10 @@ header.start{
 	width: 4.3%;
 }
 
+span.hide{
+	display:none;
+}
+
 nav{
 	ul,li{
 		width:100%;
@@ -39,7 +43,7 @@ nav{
 			width: 325%;
 
 			.i{
-				color:$facebookColor
+				color:$facebookColor;
 			}
 
 		}
@@ -48,7 +52,7 @@ nav{
 			width: 330%;
 			
 			.i{
-				color:$twitterColor
+				color:$twitterColor;
 			}
 		}
 
@@ -56,7 +60,7 @@ nav{
 			width: 300%;
 			
 			.i{
-				color:$githubColor
+				color:$githubColor;
 			}
 
 		}
@@ -65,7 +69,7 @@ nav{
 			width: 500%;
 
 			.i{
-				color:$linkedinColor
+				color:$linkedinColor;
 			}
 
 		}
@@ -74,7 +78,7 @@ nav{
 			width: 550%;
 
 			.i{
-				color: $emailColor
+				color: $emailColor;
 			}
 
 		}
