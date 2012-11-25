@@ -1,1 +1,3 @@
-.scssc
+.DS_Store
+*.tpl.php
+*.scssc
