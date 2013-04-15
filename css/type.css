@@ -1,1 +1,50 @@
-@font-face{font-family:"Coda Caption";src:url('../font/');src:url('../font/?#iefix') format('eot'),url('../font/coda-caption.woff') format('woff');font-weight:"600";font-style:"normal"}@font-face{font-family:"Megalopolis";src:url('../font/megalopolisextra-webfont.eot');src:url('../font/megalopolisextra-webfont.eot?#iefix') format('eot'),url('../font/megalopolisextra-webfont.eot?#iefix') format('embedded-opentype'), url('../font/megalopolisextra-webfont.woff') format('woff'), url('../font/megalopolisextra-webfont.ttf') format('truetype'), url('../font/megalopolisextra-webfont.svg#MEgalopolisExtraRegular') format('svg');font-weight:"normal";font-style:"normal"}@font-face{font-family:"icomoon";src:url('../font/icomoon.eot');src:url('../font/icomoon.eot?#iefix') format('eot'),url('../font/icomoon.eot?#iefix') format('embedded-opentype'), url('../font/icomoon.svg#icomoon') format('svg'), url('../font/icomoon.woff') format('woff'), url('../font/icomoon.ttf') format('truetype');font-weight:"normal";font-style:"normal"}body{font-size:2.6em}h1,h2{text-align:center}h1{font-family:"Megalopolis";font-size:100%;color:#444}h2{font-family:"Coda Caption";font-size:85%;color:#fff}nav a{font-family:"Megalopolis"}
+/*
+ *	Links colors
+*/
+@font-face {
+  font-family: "Coda Caption";
+  src: url('../font/');
+  src: url('../font/?#iefix') format('eot'), url('../font/coda-caption.woff') format('woff');
+  font-weight: "600";
+  font-style: "normal";
+}
+
+@font-face {
+  font-family: "Megalopolis";
+  src: url('../font/megalopolisextra-webfont.eot');
+  src: url('../font/megalopolisextra-webfont.eot?#iefix') format('eot'), url('../font/megalopolisextra-webfont.eot?#iefix') format('embedded-opentype'), url('../font/megalopolisextra-webfont.woff') format('woff'), url('../font/megalopolisextra-webfont.ttf') format('truetype'), url('../font/megalopolisextra-webfont.svg#MEgalopolisExtraRegular') format('svg');
+  font-weight: "normal";
+  font-style: "normal";
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url('../font/icomoon.eot');
+  src: url('../font/icomoon.eot?#iefix') format('eot'), url('../font/icomoon.eot?#iefix') format('embedded-opentype'), url('../font/icomoon.svg#icomoon') format('svg'), url('../font/icomoon.woff') format('woff'), url('../font/icomoon.ttf') format('truetype');
+  font-weight: "normal";
+  font-style: "normal";
+}
+
+body {
+  font-size: 2.6em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Megalopolis";
+  font-size: 100%;
+  color: #444444;
+}
+
+h2 {
+  font-family: "Coda Caption";
+  font-size: 85%;
+  color: white;
+}
+
+nav a {
+  font-family: "Megalopolis";
+}

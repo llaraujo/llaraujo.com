@@ -15,12 +15,15 @@
 			window.scrollTo(0, 1);
 		},500);
 	};
-	
+
 	Markup.links = function(){
 
 		if(('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
-			
+
+			console.log('entrou');
+
 			$$('.cont a').on('click',function(e){
+				console.log(this);
 				e.preventDefault();
 			});
 

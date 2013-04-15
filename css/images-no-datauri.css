@@ -1,1 +1,11 @@
-html.no-datauri body{background:url('../img/bg.png?1353262573')}html.no-datauri .html5{background:url('../img/html5logo.png?1353262573')}html.no-datauri .css3{background:url('../img/css3logo.png?1353262573')}
+html.no-datauri body {
+  background: url('../img/bg.png?1363530564');
+}
+
+html.no-datauri .html5 {
+  background: url('../img/html5logo.png?1363530564');
+}
+
+html.no-datauri .css3 {
+  background: url('../img/css3logo.png?1363530564');
+}

@@ -5,7 +5,7 @@
 	}
 
 	.cont{
-		width:12%;
+		// width:12%;
 
 		font-size:1.2em;
 
@@ -56,6 +56,33 @@
 
 }
 
+
+@media screen and (max-width: 400px){
+	.cont{
+		width:9.0%;
+	}
+}
+@media screen and (min-width: 401px) and (max-width: 500px){
+	.cont{
+		width:8.0%;
+	}
+}
+@media screen and (min-width: 501px) and (max-width: 600px){
+	.cont{
+		width:6.5%;
+	}
+}
+@media screen and (min-width: 601px) and (max-width: 649px){
+	.cont{
+		width:6%;
+	}
+}
+@media screen and (min-width: 650px){
+	.cont{
+		width:54px;
+	}
+}
+
 @media screen and (max-width: 650px) and (orientation:landscape){
 
 	body{
@@ -71,7 +98,7 @@
 	.cont{
 		position:absolute;
 		top:10%;
-		width:8%;
+		// width:8%;
 
 		font-size:1.2em;
 

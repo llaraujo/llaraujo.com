@@ -1,3 +1,4 @@
+/* line 3, ../sass/animations.scss */
 header {
   -webkit-transition: margin-top 1500ms linear, opacity 1500ms linear;
   -moz-transition: margin-top 1500ms linear, opacity 1500ms linear;
@@ -7,6 +8,7 @@ header {
   opacity: 1;
 }
 
+/* line 10, ../sass/animations.scss */
 nav li a {
   -webkit-transition: width 400ms linear;
   -moz-transition: width 400ms linear;
@@ -14,6 +16,7 @@ nav li a {
   transition: width 400ms linear;
 }
 
+/* line 16, ../sass/animations.scss */
 .logos {
   -webkit-transition: opacity 1500ms linear;
   -moz-transition: opacity 1500ms linear;

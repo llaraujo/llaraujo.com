@@ -1,3 +1,4 @@
+/* line 1, ../sass/icomoon.scss */
 [data-icon]:before {
   float: left;
   font-family: 'icomoon';
@@ -8,6 +9,7 @@
   text-align: center;
 }
 
+/* line 12, ../sass/icomoon.scss */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   float: left;
@@ -18,86 +20,107 @@
   -webkit-font-smoothing: antialiased;
 }
 
+/* line 21, ../sass/icomoon.scss */
 .github .i {
   content: "\21";
 }
 
+/* line 24, ../sass/icomoon.scss */
 .facebook .i {
   content: "\23";
 }
 
+/* line 27, ../sass/icomoon.scss */
 .twitter .i {
   content: "\24";
 }
 
+/* line 30, ../sass/icomoon.scss */
 .feed .i {
   content: "\25";
 }
 
+/* line 33, ../sass/icomoon.scss */
 .googleplus .i {
   content: "\26";
 }
 
+/* line 36, ../sass/icomoon.scss */
 .email .i {
   content: "\27";
 }
 
+/* line 39, ../sass/icomoon.scss */
 .html5 .i {
   content: "\28";
 }
 
+/* line 42, ../sass/icomoon.scss */
 .css3 .i {
   content: "\29";
 }
 
+/* line 45, ../sass/icomoon.scss */
 .chrome .i {
   content: "\2a";
 }
 
+/* line 48, ../sass/icomoon.scss */
 .firefox .i {
   content: "\2b";
 }
 
+/* line 51, ../sass/icomoon.scss */
 .ie .i {
   content: "\2c";
 }
 
+/* line 54, ../sass/icomoon.scss */
 .opera .i {
   content: "\2d";
 }
 
+/* line 57, ../sass/icomoon.scss */
 .safari .i {
   content: "\2e";
 }
 
+/* line 60, ../sass/icomoon.scss */
 .pdf .i {
   content: "\30";
 }
 
+/* line 63, ../sass/icomoon.scss */
 .word .i {
   content: "\31";
 }
 
+/* line 66, ../sass/icomoon.scss */
 .skype .i {
   content: "\32";
 }
 
+/* line 69, ../sass/icomoon.scss */
 .android .i {
   content: "\33";
 }
 
+/* line 72, ../sass/icomoon.scss */
 .apple .i {
   content: "\34";
 }
 
+/* line 75, ../sass/icomoon.scss */
 .phone .i {
   content: "\35";
 }
 
+/* line 78, ../sass/icomoon.scss */
 .location .i {
   content: "\22";
 }
 
+/* line 81, ../sass/icomoon.scss */
 .linkedin .i {
   content: "\2f";
 }

@@ -1,1 +1,118 @@
-header.start{margin-top:-10%;opacity:0}.cont{width:4.3%}span.hide{display:none}nav ul,nav li{width:100%}nav li{margin-bottom:10%}nav a{position:relative;overflow:hidden;display:block;width:99%;background-color:#444;border-bottom-right-radius:26px;border-top-right-radius:26px;text-decoration:none;line-height:48px}nav a.hide{width:0}nav a.facebook:hover{width:325%}nav a.facebook:hover .i{color:#3b5998}nav a.twitter:hover{width:330%}nav a.twitter:hover .i{color:#019ad2}nav a.github:hover{width:300%}nav a.github:hover .i{color:#000}nav a.linkedin:hover{width:500%}nav a.linkedin:hover .i{color:#71c5ef}nav a.email:hover{width:550%}nav a.email:hover .i{color:#fff}nav a div{float:left}nav a .i,nav a .d{width:100%}nav a .i{height:48px;line-height:48px;padding-left:5px;font-size:90%;color:#ccc}nav a .d{position:absolute;top:0px;left:54px;font-size:40%;color:#fff;font-style:italic;-webkit-user-select:none;-moz-user-select:none;user-select:none}.logos{position:absolute;width:40%;height:200px;top:40%;left:33%;opacity:1}.logos.hide{opacity:0}.logos div{background-repeat:no-repeat;background-size:contain;font-size:0em}.logos .html5{float:left;width:45%;height:100%}.logos .css3{float:right;width:45%;height:100%}
+/*
+ *	Links colors
+*/
+header.start {
+  margin-top: -10%;
+  opacity: 0;
+}
+
+.cont {
+  width: 4.3%;
+}
+
+span.hide {
+  display: none;
+}
+
+nav ul, nav li {
+  width: 100%;
+}
+nav li {
+  margin-bottom: 10%;
+}
+nav a {
+  z-index: 10;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 99%;
+  background-color: #444444;
+  border-bottom-right-radius: 26px;
+  border-top-right-radius: 26px;
+  text-decoration: none;
+  line-height: 48px;
+}
+nav a.hide {
+  width: 0;
+}
+nav a.facebook:hover {
+  width: 325%;
+}
+nav a.facebook:hover .i {
+  color: #3b5998;
+}
+nav a.twitter:hover {
+  width: 330%;
+}
+nav a.twitter:hover .i {
+  color: #019ad2;
+}
+nav a.github:hover {
+  width: 300%;
+}
+nav a.github:hover .i {
+  color: black;
+}
+nav a.linkedin:hover {
+  width: 500%;
+}
+nav a.linkedin:hover .i {
+  color: #71c5ef;
+}
+nav a.email:hover {
+  width: 550%;
+}
+nav a.email:hover .i {
+  color: white;
+}
+nav a div {
+  float: left;
+}
+nav a .i, nav a .d {
+  width: 100%;
+}
+nav a .i {
+  height: 48px;
+  line-height: 48px;
+  padding-left: 5px;
+  font-size: 90%;
+  color: #cccccc;
+}
+nav a .d {
+  position: absolute;
+  top: 0px;
+  left: 54px;
+  font-size: 40%;
+  color: white;
+  font-style: italic;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.logos {
+  position: absolute;
+  width: 40%;
+  height: 200px;
+  top: 40%;
+  left: 33%;
+  opacity: 1;
+}
+.logos.hide {
+  opacity: 0;
+}
+.logos div {
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0em;
+}
+.logos .html5 {
+  float: left;
+  width: 45%;
+  height: 100%;
+}
+.logos .css3 {
+  float: right;
+  width: 45%;
+  height: 100%;
+}
